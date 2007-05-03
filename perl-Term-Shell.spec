@@ -2,8 +2,8 @@
 
 Summary:	Term::Shell -- Write command-line shells in Perl
 Name:		perl-%{real_name}
-Version:	0.01
-Release: %mkrel 2
+Version:	0.02
+Release: %mkrel 1
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{real_name}
