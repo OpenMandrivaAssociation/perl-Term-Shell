@@ -1,6 +1,6 @@
 %define real_name Term-Shell
 
-Summary:	Term::Shell -- Write command-line shells in Perl
+Summary:	Write command-line shells in Perl
 Name:		perl-%{real_name}
 Version:	0.02
 Release: %mkrel 1
