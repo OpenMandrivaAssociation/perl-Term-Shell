@@ -1,15 +1,15 @@
 %define upstream_name    Term-Shell
-%define upstream_version 0.04
+%define upstream_version 0.05
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.04
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Write command-line shells in Perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Term/Term-Shell-0.04.tar.gz
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Term/Term-Shell-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -68,5 +68,6 @@ make test
 
 * Thu Jul 14 2005 Oden Eriksson <oeriksson@mandriva.com> 0.01-1mdk
 - initial Mandriva package
+
 
 

@@ -1,4 +1,5 @@
 removed_sources:
   Term-Shell-0.02.tar.bz2: 4189f3d2d0bb3653b6e57949a6aa527c6aab5215
-sources:
   Term-Shell-0.04.tar.gz: 1892a3e02022c2a2f592de48c6890c5ae2122689
+sources:
+  Term-Shell-0.05.tar.gz: 01e982845539f6fcc95e898ec28ecbc1adb99e92
