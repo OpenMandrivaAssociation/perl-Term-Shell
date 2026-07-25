@@ -1,16 +1,16 @@
 %define upstream_name    Term-Shell
-%define upstream_version 0.06
+%define upstream_version 0.13
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Write command-line shells in Perl
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Term/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/shlomif/Term-Shell
+Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Term-Shell-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
