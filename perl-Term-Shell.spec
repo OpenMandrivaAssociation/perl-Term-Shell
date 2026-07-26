@@ -1,16 +1,14 @@
 %define upstream_name    Term-Shell
-%define upstream_version 0.13
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.13
+Release:	2
 
 Summary:	Write command-line shells in Perl
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/shlomif/Term-Shell
-Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Term-Shell-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Term-Shell-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -22,7 +20,7 @@ All the boring details like command-line parsing and terminal handling are
 done for you.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
